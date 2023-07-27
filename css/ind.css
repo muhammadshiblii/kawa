@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+/* font-family: 'Questrial', sans-serif; */
+/* font-family: 'Ysabeau SC', sans-serif; */
+.container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.614),rgba(0, 0, 0, 0.614)),url("../images/background.jpg");
+    background-size: cover;
+    height:650px;  
+}
+.nav{
+   display: flex;
+   height: 40px;
+   justify-content: space-between;
+   /* background-color: black; */
+   position: sticky;
+   top: 0;
+}
+.left img{
+    width: 15%;
+    padding-left: 50px;
+}
+.right{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+ .right a{
+    font-family: sans-serif;
+    font-size:15px;
+    gap: 10px;
+    color:white;
+    margin-right: 60px;
+    text-decoration: none;
+
+}
+#home{
+    border-bottom: 2px solid red;
+    color: yellow;
+}
+.nav a:hover{
+    color:yellow;
+    border-bottom: 2px solid red;
+}
+.content{
+    text-align: center;
+    color:yellow;
+    padding-top: 130px;
+}
+.p{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 0 !important;
+}
+.content h1{
+    font-size: 110px;
+    font-weight: 600;
+    color:rgb(244, 246, 184);
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom:30px;
+    letter-spacing: 29px;
+    font-family: 'Ysabeau SC';
+
+}
+.content a{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color:white;
+    padding: 8px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+}
+.content a:hover{
+    background-color: yellow;
+    color: black;
+}
+.service{
+    background-image: url(../images/footerbg.jpg);
+}
+.service p{
+    text-align: center;
+    color: #0e3051;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Kalam', cursive;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 290px;
+}
+.home,.pay,.party{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 30px;
+    color: #033261;
+    margin-bottom: 30px;
+}
+.foot p{
+    font-size: 20px;
+}
+
+
